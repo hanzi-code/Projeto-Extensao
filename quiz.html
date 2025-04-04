@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,73 @@
     <link rel="stylesheet" href="./css/quizStyles.css">
     <script src="./js/scripts.js" defer></script>
 </head>
+
 <body>
-    
+    <div class="container">
+        <h1>Quiz: Lógica de Programação</h1>
+
+        <p>Fluxograma de exemplo:</p>
+        <img src="https://www.visual-paradigm.com/servlet/editor-content/tutorials/flowchart-tutorial/sites/7/2018/09/flowchart-example-simple-algorithms.png"
+            alt="Fluxograma de exemplo" />
+
+        <div class="question" id="question1">
+            <p>1. Qual estrutura é usada para repetir um bloco de código enquanto uma condição for verdadeira?</p>
+            <button>a) while</button>
+            <button>b) if</button>
+            <button>c) switch</button>
+            <div id="result1" class="result"></div>
+        </div>
+
+        <div class="question" id="question2">
+            <p>2. O que significa '&&' em programação?</p>
+            <button>a) OU lógico</button>
+            <button>b) E lógico</button>
+            <button>c) Negação</button>
+            <div id="result2" class="result"></div>
+        </div>
+
+        <div class="question" id="question3">
+            <p>3. Qual desses é um tipo de dado?</p>
+            <button>a) variável</button>
+            <button>b) inteiro</button>
+            <button>c) função</button>
+            <div id="result3" class="result"></div>
+        </div>
+
+        <div class="question" id="question4">
+            <p>4. Qual comando é usado para criar uma função em JavaScript?</p>
+            <button>a) def</button>
+            <button>b) function</button>
+            <button>c) método</button>
+            <div id="result4" class="result"></div>
+        </div>
+
+        <div class="question" id="question5">
+            <p>5. Qual operador é usado para verificar igualdade em valor e tipo em JavaScript?</p>
+            <button>a) ==</button>
+            <button>b) =</button>
+            <button>c) ===</button>
+            <div id="result5" class="result"></div>
+        </div>
+
+        <div class="question" id="question6">
+            <p>6. O que a estrutura <code>if</code> faz?</p>
+            <button>a) Executa uma repetição</button>
+            <button>b) Avalia uma condição e executa um bloco de código</button>
+            <button>c) Define uma variável</button>
+            <div id="result6" class="result"></div>
+        </div>
+
+        <div class="question" id="question7">
+            <p>7. Qual é a saída do código: <code>console.log(2 + '2')</code>?</p>
+            <button>a) 4</button>
+            <button>b) 22</button>
+            <button>c) erro</button>
+            <div id="result7" class="result"></div>
+        </div>
+
+        <div class="score" id="finalScore"></div>
+    </div>
 </body>
+
 </html>
